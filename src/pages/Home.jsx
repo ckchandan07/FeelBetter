@@ -7,6 +7,7 @@ import { MdKeyboardArrowDown, MdOutlinePause } from "react-icons/md";
 import { songsData } from "../songs";
 import Card from "../components/Card";
 import Player from "../components/Player";
+import bgmusics from "../assets/musicanim.webp"
 
 const Home = () => {
   let {
@@ -62,7 +63,7 @@ const Home = () => {
             {playingSong ? (
               <div className="w-[100%] h-[100%] opacity-[0.5] absolute top-0 bg-black flex justify-center items-center">
                 <img
-                  src="src/musicanim.webp"
+                  src={bgmusics}
                   alt=""
                   className="w-[60%] h-[60%] "
                 />
