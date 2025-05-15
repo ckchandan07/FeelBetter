@@ -62,7 +62,7 @@ const Home = () => {
             {playingSong ? (
               <div className="w-[100%] h-[100%] opacity-[0.5] absolute top-0 bg-black flex justify-center items-center">
                 <img
-                  src="src/assets/musicanim.webp"
+                  src="src/musicanim.webp"
                   alt=""
                   className="w-[60%] h-[60%] "
                 />
